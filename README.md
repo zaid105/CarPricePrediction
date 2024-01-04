@@ -10,11 +10,8 @@ The Aim of this project is to build or develop a Machine Learning model to predi
 ## Table of Contents
 - [Dataset](#dataset)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Model Training](#model-training)
 - [Evaluation](#evaluation)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Dataset
@@ -22,28 +19,44 @@ This data we get from www.cardekho.com.
 This dataset is also available on kaggle for free.
 
 ## Features
-Car_Name: Give the information of car Name.
-Year: Give the information about Manufacturing year of car.
-Selling_Price:Give the information about selling price.
-Present_Price:Give the information about present price in showroom.
-Kms_Driven:Give the information about car driven in km.
-Fuel_Type:Give the information about which type of fuel is used Petrol ,Diesel or CNG.
-Seller_Type: Give the information about seller_type Dealer or Individual.
-Transmission:Give the information about Transmission system whether is Manual or Automatic.
-Owner:Give the information about Owner 0, 1, 0r 3.
-etc.
+Car_Name: Give the information of car Name.<br>
+Year: Give the information about Manufacturing year of car.<br>
+Selling_Price:Give the information about selling price.<br>
+Present_Price:Give the information about present price in showroom.<br>
+Kms_Driven:Give the information about car driven in km.<br>
+Fuel_Type:Give the information about which type of fuel is used Petrol ,Diesel or CNG.<br>
+Seller_Type: Give the information about seller_type Dealer or Individual.<br>
+Transmission:Give the information about Transmission system whether is Manual or Automatic.<br>
+Owner:Give the information about Owner 0, 1, 0r 3.<br>
+mileage: Give the information about cars mileage. <br>
+engine: Give the information about cars engine.<br>
+max_power: Give information about cars power.<br>
+torque: Give the information about torque of the cars.<br>
+seats: Give information about how much seats are available in car.
 
 
 
 ## Model Training
 The machine learning model was trained using the many diffrent regression models 
-<br>eg:- Linear Regression, SVR, Decision Tree, Random Forest, Adaboost, Gradiant Boosting tc
+<br>eg:- Linear Regression, SVR, Decision Tree, Random Forest, Adaboost, Gradiant Boosting,XGboost etc
 
 ## Evaluation
-The model's performance was evaluated using Mean Squared Error...
+The model's performance was evaluated using Mean Squared Error, Mean Absolute Error, Root Mean Square Error, R-Square, Adjusted R-Square
 
-## Contributing
-If you'd like to contribute to the project...
+
 
 ## License
 This project is licensed under the MIT License...
+
+Copyright (c) [2023] [Zaid Ahmed]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
